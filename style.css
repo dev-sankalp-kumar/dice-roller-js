@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#img{
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+#btn {
+    width: 104px;
+    height: 36px;
+    font-size: 28px;
+    background-color: greenyellow;
+    border: navajowhite;
+    border-radius: 17px;
+    font-weight: bolder;
+    cursor: pointer;
+}
